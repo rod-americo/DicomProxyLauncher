@@ -1,0 +1,16 @@
+# Binaries
+*.exe
+*.dll
+*.o
+*.obj
+
+# Logs
+*.log
+*.txt
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# User config (optional, keep if you want check-in config templates)
+# config.ini
