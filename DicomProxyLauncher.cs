@@ -114,7 +114,7 @@ namespace DicomProxyLauncher
 
         static void LaunchRadiant(string accessionNumber, Dictionary<string, string> config)
         {
-            string radiantExe = config.ContainsKey("radiant_exe") ? config["radiant_exe"] : @"C:\Program Files\RadiAntViewer64bitARM\RadiAntViewer.exe";
+            string radiantExe = config.ContainsKey("radiant_exe") ? config["radiant_exe"] : @"C:\Program Files\RadiAntViewer\RadiAntViewer.exe";
             string radiantDicom = config.ContainsKey("radiant_dicom") ? config["radiant_dicom"] : @"C:\DICOM";
 
             // Construct the path for the specific study. 
