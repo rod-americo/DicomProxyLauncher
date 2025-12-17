@@ -1,4 +1,4 @@
-# DicomProxyLauncher (Antigo OsiriX Launcher)
+# DicomProxyLauncher
 
 Este projeto integra o mCockpit (plugin "Vida Avançado") com visualizadores DICOM externos (OsiriX, RadiAnt), atuando como um "proxy" que intercepta a chamada do sistema e redireciona os argumentos corretamente.
 
