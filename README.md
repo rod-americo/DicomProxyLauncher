@@ -108,6 +108,30 @@ Mas isso deve ser tratado apenas como exemplo. O caminho real é sempre o que fo
 
 Dependendo da instalação, criar a pasta e copiar os arquivos pode exigir privilégios de administrador.
 
+## Instalador Windows
+
+O projeto inclui um instalador simples baseado em Inno Setup. Os arquivos que serão empacotados ficam em:
+
+- `installer/payload/MDMV/mCockpit/Plugin/`
+- `installer/payload/Intrasense/Myrian/`
+
+No Windows, instale o [Inno Setup 6](https://jrsoftware.org/isinfo.php) e gere o instalador com:
+
+```powershell
+.\installer\build.ps1
+```
+
+O executável será gerado em:
+
+```text
+installer\output\mCockpitExternalViewerBridgeSetup.exe
+```
+
+Ao executar o instalador como administrador, ele copia:
+
+- `installer/payload/MDMV/mCockpit/Plugin/*` para `C:\MDMV\mCockpit\Plugin`
+- `installer/payload/Intrasense/Myrian/*` para `C:\Program Files\Intrasense\Myrian`
+
 ## Comportamento por viewer
 
 ### RadiAnt

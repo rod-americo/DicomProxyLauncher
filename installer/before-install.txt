@@ -1,0 +1,23 @@
+Este instalador vai copiar e sobrescrever os arquivos abaixo, se eles ja existirem.
+
+Destino 1:
+C:\MDMV\mCockpit\Plugin
+
+Arquivos:
+- mIntegrador.Plugin.Myrian.dll
+- mIntegrador.Plugin.Vida.dll
+- mIntegrador.Plugin.Vida.dll.config
+
+Destino 2:
+C:\Program Files\Intrasense\Myrian
+
+Arquivos:
+- ispilot.exe
+- config.ini
+
+Configuracao:
+- O instalador tenta detectar o RadiAnt primeiro.
+- Se encontrar o RadiAnt, configura viewer=radiant.
+- Se nao encontrar, mantem viewer=osirix, usado para OsiriX/Horos.
+
+Clique em Avancar para iniciar a copia.

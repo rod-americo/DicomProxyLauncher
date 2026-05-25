@@ -3,10 +3,14 @@
 *.dll
 *.o
 *.obj
+!installer/payload/**/*.exe
+!installer/payload/**/*.dll
+installer/output/
 
 # Logs
 *.log
 *.txt
+!installer/before-install.txt
 
 # OS Files
 .DS_Store
