@@ -1,4 +1,4 @@
-Este instalador vai copiar e sobrescrever os arquivos abaixo, se eles ja existirem.
+Este instalador vai copiar e sobrescrever os arquivos abaixo, se eles já existirem.
 
 Destino 1:
 C:\MDMV\mCockpit\Plugin
@@ -15,9 +15,9 @@ Arquivos:
 - ispilot.exe
 - config.ini
 
-Configuracao:
+Configuração:
 - O instalador tenta detectar o RadiAnt primeiro.
 - Se encontrar o RadiAnt, configura viewer=radiant.
-- Se nao encontrar, mantem viewer=osirix, usado para OsiriX/Horos.
+- Se não encontrar, mantém viewer=osirix, usado para OsiriX/Horos.
 
-Clique em Avancar para iniciar a copia.
+Clique em Avançar para iniciar a cópia.

@@ -88,11 +88,11 @@ procedure InitializeWizard();
 begin
   RadiAntPage := CreateInputFilePage(
     wpInfoBefore,
-    'Configuracao do RadiAnt',
+    'Configuração do RadiAnt',
     'Confirme o caminho do RadiAntViewer.exe',
-    'Se o RadiAnt for encontrado, ele sera usado como viewer padrao. Se nao for encontrado, a configuracao continuara usando OsiriX/Horos.'
+    'Se o RadiAnt for encontrado, ele será usado como viewer padrão. Se não for encontrado, a configuração continuará usando OsiriX/Horos.'
   );
-  RadiAntPage.Add('RadiAntViewer.exe:', 'Executaveis (*.exe)|*.exe|Todos os arquivos (*.*)|*.*', '.exe');
+  RadiAntPage.Add('RadiAntViewer.exe:', 'Executáveis (*.exe)|*.exe|Todos os arquivos (*.*)|*.*', '.exe');
   RadiAntPage.Values[0] := FindRadiAntViewer();
 end;
 
